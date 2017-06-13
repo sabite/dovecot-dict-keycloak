@@ -1,0 +1,24 @@
+{
+  "openid_configuration": "https://keycloak/auth/realms/example.com/.well-known/openid-configuration",
+  "client_id": "mail.example.com",
+  "client_secret": "",
+  "base_url": "https://keycloak/auth/admin/realms/example.com",
+  "scopes": {
+    "normal": "mail"
+  },
+  "user": {
+    "uid": "vmail",
+    "gid": "vmail",
+    "home_prefix": "/var/mail/vmail/"
+  },
+  "socket": {
+      "path": "socket",
+      "user": our_uid,
+      "group": dovecot_gid,
+      "mode": 432
+  },
+  "privsep": {
+      "user": "dovenull",
+      "group": "dovecot"
+  }
+}

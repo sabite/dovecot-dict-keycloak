@@ -1,0 +1,16 @@
+{
+  "name": "dovecot-dict",
+  "version": "1.0.0",
+  "main": "dict-server.js",
+  "author": "Tavy <sabit@wixen.space>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fse": "^3.0.0",
+    "is-uuid": "^1.0.2",
+    "nice-is-email": "^1.0.3",
+    "node-fetch": "^1.7.1",
+    "split2": "^2.1.1",
+    "xml-crypto": "^0.10.1",
+    "xmldom": "^0.1.27"
+  }
+}
